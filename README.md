@@ -1,26 +1,26 @@
-# 📊 AI Data Analysis Agent
+# AI Data Analysis Agent
 
 An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-4o model. This agent helps users analyze their data - csv, excel files through natural language queries, powered by OpenAI's language models and DuckDB for efficient data processing - making data analysis accessible to users regardless of their SQL expertise.
 
 ## Features
 
-- 📤 **File Upload Support**: 
+-  **File Upload Support**: 
   - Upload CSV and Excel files
   - Automatic data type detection and schema inference
   - Support for multiple file formats
 
-- 💬 **Natural Language Queries**: 
+-  **Natural Language Queries**: 
   - Convert natural language questions into SQL queries
   - Get instant answers about your data
   - No SQL knowledge required
 
-- 🔍 **Advanced Analysis**:
+-  **Advanced Analysis**:
   - Perform complex data aggregations
   - Filter and sort data
   - Generate statistical summaries
   - Create data visualizations
 
-- 🎯 **Interactive UI**:
+-  **Interactive UI**:
   - User-friendly Streamlit interface
   - Real-time query processing
   - Clear result presentation
@@ -28,19 +28,17 @@ An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-
 ## How to Run
 
 1. **Setup Environment**
+2. Clone the repository
+   And Then
    ```bash
-   # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/starter_ai_agents/ai_data_analysis_agent
-
    # Install dependencies
    pip install -r requirements.txt
    ```
 
-2. **Configure API Keys**
+3. **Configure API Keys**
    - Get OpenAI API key from [OpenAI Platform](https://platform.openai.com)
 
-3. **Run the Application**
+4. **Run the Application**
    ```bash
    streamlit run ai_data_analyst.py
    ```
